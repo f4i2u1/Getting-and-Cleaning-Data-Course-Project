@@ -8,8 +8,8 @@ The script processes the Samsung experiment data obtained from http://archive.ic
 
 ### Steps to work on this course project
 
-1. Download the data source from the web site stated above and  into a folder on your local drive. You'll have a ```UCI HAR Dataset``` folder.
-2. Put ```run_analysis.R``` in the parent folder of ```UCI HAR Dataset```, then set it as your working directory using ```setwd()``` function in RStudio.
+1. Download the data source from the web site stated above and extract into a folder. There will be a folder called ```UCI HAR Dataset```.
+2. Put ```run_analysis.R``` in the parent folder  ```UCI HAR Dataset```, then set it as your working directory using ```setwd()``` function in RStudio.
 3. Run ```source("run_analysis.R")```, then it will generate a new file ```tiny_data.txt``` in your working directory.
 
 ### Dependencies
