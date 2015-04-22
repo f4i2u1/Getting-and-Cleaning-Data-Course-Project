@@ -6,12 +6,12 @@ The purpose of this script is to demonstrate ability to collect, work with, and 
 
 The script processes the Samsung experiment data obtained from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and perform various data cleaning and merging that finally produces a tidy data set of aggregated readings for all features by subject ID and activity type.
 
-### Steps to work on this course project
+### Steps to execute the script
 
 1. Download the data source from the web site stated above and extract into a folder. There will be a folder called ```UCI HAR Dataset```.
-2. Put ```run_analysis.R``` in the parent folder  ```UCI HAR Dataset```, then set it as your working directory using ```setwd()``` function in RStudio.
-3. Run ```source("run_analysis.R")```, then it will generate a new file ```tiny_data.txt``` in your working directory.
+2. Put ```run_analysis.R``` in the parent folder above ```UCI HAR Dataset```, then set it as your working directory using ```setwd()``` function in R.
+3. Run ```source("run_analysis.R")``` and it will generate a file ```tidy_data.txt``` in your working directory.
 
 ### Dependencies
 
-```run_analysis.R``` file will help you to install the dependencies automatically. It depends on ```reshape2``` and ```data.table```.
+```run_analysis.R``` depends on ```reshape2``` and ```data.table``` libraries and those must be installed first.
