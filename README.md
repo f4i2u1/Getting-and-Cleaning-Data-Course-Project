@@ -12,6 +12,3 @@ The script processes the Samsung experiment data obtained from http://archive.ic
 2. Put ```run_analysis.R``` in the parent folder above ```UCI HAR Dataset```, then set it as your working directory using ```setwd()``` function in R.
 3. Run ```source("run_analysis.R")``` and it will generate a file ```tidy_data.txt``` in your working directory.
 
-### Dependencies
-
-```run_analysis.R``` depends on ```reshape2``` and ```data.table``` libraries and those must be installed first.
