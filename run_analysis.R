@@ -7,9 +7,6 @@
 ## 5. From the data set in step 4, creates a second, independent tidy data set with the average of 
 ##    each variable for each activity and each subject.
 
-## load necessary libraries
-library(data.table)
-
 ## load headers
 headers <- read.table("./UCI HAR Dataset/features.txt")
 
