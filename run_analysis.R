@@ -9,7 +9,6 @@
 
 ## load necessary libraries
 library(data.table)
-library(reshape2)
 
 ## load headers
 headers <- read.table("./UCI HAR Dataset/features.txt")
